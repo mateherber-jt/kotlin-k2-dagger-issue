@@ -17,6 +17,9 @@ dependencyResolutionManagement {
         maven {
             url = URI("https://androidx.dev/storage/compose-compiler/repository/")
         }
+        maven {
+            url = URI("https://oss.sonatype.org/content/repositories/snapshots/")
+        }
     }
 }
 
